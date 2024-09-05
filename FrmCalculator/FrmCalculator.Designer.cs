@@ -29,56 +29,52 @@
         private void InitializeComponent()
         {
             groupBox1 = new GroupBox();
-            textBox1 = new TextBox();
-            button20 = new Button();
-            button19 = new Button();
-            button18 = new Button();
-            button17 = new Button();
-            button16 = new Button();
-            button13 = new Button();
-            button14 = new Button();
-            button15 = new Button();
-            button10 = new Button();
-            button11 = new Button();
-            button12 = new Button();
-            button7 = new Button();
-            button8 = new Button();
-            button9 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            button6 = new Button();
-            button3 = new Button();
-            button2 = new Button();
-            button1 = new Button();
+            bEqual = new Button();
+            bPlus = new Button();
+            bMinus = new Button();
+            bMultiply = new Button();
+            bDivision = new Button();
+            bClear = new Button();
+            bDecimalPoint = new Button();
+            bZero = new Button();
+            bSign = new Button();
+            bNine = new Button();
+            bEight = new Button();
+            bSeven = new Button();
+            bSix = new Button();
+            bFive = new Button();
+            bFour = new Button();
+            bThree = new Button();
+            bTwo = new Button();
+            bOne = new Button();
             groupBox2 = new GroupBox();
-            textBox2 = new TextBox();
+            lblDisplay = new Label();
+            txtLog = new TextBox();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             SuspendLayout();
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(textBox1);
-            groupBox1.Controls.Add(button20);
-            groupBox1.Controls.Add(button19);
-            groupBox1.Controls.Add(button18);
-            groupBox1.Controls.Add(button17);
-            groupBox1.Controls.Add(button16);
-            groupBox1.Controls.Add(button13);
-            groupBox1.Controls.Add(button14);
-            groupBox1.Controls.Add(button15);
-            groupBox1.Controls.Add(button10);
-            groupBox1.Controls.Add(button11);
-            groupBox1.Controls.Add(button12);
-            groupBox1.Controls.Add(button7);
-            groupBox1.Controls.Add(button8);
-            groupBox1.Controls.Add(button9);
-            groupBox1.Controls.Add(button4);
-            groupBox1.Controls.Add(button5);
-            groupBox1.Controls.Add(button6);
-            groupBox1.Controls.Add(button3);
-            groupBox1.Controls.Add(button2);
-            groupBox1.Controls.Add(button1);
+            groupBox1.Controls.Add(lblDisplay);
+            groupBox1.Controls.Add(bEqual);
+            groupBox1.Controls.Add(bPlus);
+            groupBox1.Controls.Add(bMinus);
+            groupBox1.Controls.Add(bMultiply);
+            groupBox1.Controls.Add(bDivision);
+            groupBox1.Controls.Add(bClear);
+            groupBox1.Controls.Add(bDecimalPoint);
+            groupBox1.Controls.Add(bZero);
+            groupBox1.Controls.Add(bSign);
+            groupBox1.Controls.Add(bNine);
+            groupBox1.Controls.Add(bEight);
+            groupBox1.Controls.Add(bSeven);
+            groupBox1.Controls.Add(bSix);
+            groupBox1.Controls.Add(bFive);
+            groupBox1.Controls.Add(bFour);
+            groupBox1.Controls.Add(bThree);
+            groupBox1.Controls.Add(bTwo);
+            groupBox1.Controls.Add(bOne);
             groupBox1.Location = new Point(12, 12);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(395, 389);
@@ -86,239 +82,226 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "電卓";
             // 
-            // textBox1
+            // bEqual
             // 
-            textBox1.Font = new Font("Yu Gothic UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 128);
-            textBox1.Location = new Point(13, 22);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(370, 81);
-            textBox1.TabIndex = 20;
+            bEqual.BackColor = SystemColors.MenuHighlight;
+            bEqual.FlatStyle = FlatStyle.Popup;
+            bEqual.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 128);
+            bEqual.Location = new Point(296, 333);
+            bEqual.Name = "bEqual";
+            bEqual.Size = new Size(88, 49);
+            bEqual.TabIndex = 19;
+            bEqual.Text = "=";
+            bEqual.UseVisualStyleBackColor = false;
+            bEqual.Click += bEqual_Click;
             // 
-            // button20
+            // bPlus
             // 
-            button20.BackColor = SystemColors.MenuHighlight;
-            button20.FlatStyle = FlatStyle.Popup;
-            button20.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 128);
-            button20.Location = new Point(296, 333);
-            button20.Name = "button20";
-            button20.Size = new Size(88, 49);
-            button20.TabIndex = 19;
-            button20.Text = "=";
-            button20.UseVisualStyleBackColor = false;
+            bPlus.FlatStyle = FlatStyle.Popup;
+            bPlus.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 128);
+            bPlus.Location = new Point(296, 278);
+            bPlus.Name = "bPlus";
+            bPlus.Size = new Size(88, 49);
+            bPlus.TabIndex = 18;
+            bPlus.Text = "+";
+            bPlus.UseVisualStyleBackColor = true;
+            bPlus.Click += bPlus_Click;
             // 
-            // button19
+            // bMinus
             // 
-            button19.FlatStyle = FlatStyle.Popup;
-            button19.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 128);
-            button19.Location = new Point(296, 278);
-            button19.Name = "button19";
-            button19.Size = new Size(88, 49);
-            button19.TabIndex = 18;
-            button19.Text = "+";
-            button19.UseVisualStyleBackColor = true;
+            bMinus.FlatStyle = FlatStyle.Popup;
+            bMinus.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 128);
+            bMinus.Location = new Point(296, 223);
+            bMinus.Name = "bMinus";
+            bMinus.Size = new Size(88, 49);
+            bMinus.TabIndex = 17;
+            bMinus.Text = "-";
+            bMinus.UseVisualStyleBackColor = true;
+            bMinus.Click += bMinus_Click;
             // 
-            // button18
+            // bMultiply
             // 
-            button18.FlatStyle = FlatStyle.Popup;
-            button18.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 128);
-            button18.Location = new Point(296, 223);
-            button18.Name = "button18";
-            button18.Size = new Size(88, 49);
-            button18.TabIndex = 17;
-            button18.Text = "-";
-            button18.UseVisualStyleBackColor = true;
+            bMultiply.FlatStyle = FlatStyle.Popup;
+            bMultiply.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 128);
+            bMultiply.Location = new Point(296, 168);
+            bMultiply.Name = "bMultiply";
+            bMultiply.Size = new Size(88, 49);
+            bMultiply.TabIndex = 16;
+            bMultiply.Text = "×";
+            bMultiply.UseVisualStyleBackColor = true;
+            bMultiply.Click += bMultiply_Click;
             // 
-            // button17
+            // bDivision
             // 
-            button17.FlatStyle = FlatStyle.Popup;
-            button17.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 128);
-            button17.Location = new Point(296, 168);
-            button17.Name = "button17";
-            button17.Size = new Size(88, 49);
-            button17.TabIndex = 16;
-            button17.Text = "×";
-            button17.UseVisualStyleBackColor = true;
+            bDivision.FlatStyle = FlatStyle.Popup;
+            bDivision.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 128);
+            bDivision.Location = new Point(296, 113);
+            bDivision.Name = "bDivision";
+            bDivision.Size = new Size(88, 49);
+            bDivision.TabIndex = 15;
+            bDivision.Text = "÷";
+            bDivision.UseVisualStyleBackColor = true;
+            bDivision.Click += bDivision_Click;
             // 
-            // button16
+            // bClear
             // 
-            button16.FlatStyle = FlatStyle.Popup;
-            button16.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 128);
-            button16.Location = new Point(296, 113);
-            button16.Name = "button16";
-            button16.Size = new Size(88, 49);
-            button16.TabIndex = 15;
-            button16.Text = "÷";
-            button16.UseVisualStyleBackColor = true;
+            bClear.FlatStyle = FlatStyle.Popup;
+            bClear.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 128);
+            bClear.Location = new Point(14, 113);
+            bClear.Name = "bClear";
+            bClear.Size = new Size(88, 49);
+            bClear.TabIndex = 13;
+            bClear.Text = "C";
+            bClear.UseVisualStyleBackColor = true;
+            bClear.Click += bClear_Click;
             // 
-            // button13
+            // bDecimalPoint
             // 
-            button13.FlatStyle = FlatStyle.Popup;
-            button13.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 128);
-            button13.Location = new Point(202, 113);
-            button13.Name = "button13";
-            button13.Size = new Size(88, 49);
-            button13.TabIndex = 14;
-            button13.Text = "DEL";
-            button13.UseVisualStyleBackColor = true;
+            bDecimalPoint.FlatStyle = FlatStyle.Popup;
+            bDecimalPoint.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 128);
+            bDecimalPoint.Location = new Point(202, 333);
+            bDecimalPoint.Name = "bDecimalPoint";
+            bDecimalPoint.Size = new Size(88, 49);
+            bDecimalPoint.TabIndex = 11;
+            bDecimalPoint.Text = ".";
+            bDecimalPoint.UseVisualStyleBackColor = true;
+            bDecimalPoint.Click += bDecimalPoint_Click;
             // 
-            // button14
+            // bZero
             // 
-            button14.FlatStyle = FlatStyle.Popup;
-            button14.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 128);
-            button14.Location = new Point(108, 113);
-            button14.Name = "button14";
-            button14.Size = new Size(88, 49);
-            button14.TabIndex = 13;
-            button14.Text = "C";
-            button14.UseVisualStyleBackColor = true;
+            bZero.FlatStyle = FlatStyle.Popup;
+            bZero.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 128);
+            bZero.Location = new Point(108, 333);
+            bZero.Name = "bZero";
+            bZero.Size = new Size(88, 49);
+            bZero.TabIndex = 10;
+            bZero.Text = "0";
+            bZero.UseVisualStyleBackColor = true;
+            bZero.Click += bZero_Click;
             // 
-            // button15
+            // bSign
             // 
-            button15.FlatStyle = FlatStyle.Popup;
-            button15.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 128);
-            button15.Location = new Point(14, 113);
-            button15.Name = "button15";
-            button15.Size = new Size(88, 49);
-            button15.TabIndex = 12;
-            button15.Text = "CE";
-            button15.UseVisualStyleBackColor = true;
+            bSign.FlatStyle = FlatStyle.Popup;
+            bSign.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 128);
+            bSign.Location = new Point(14, 333);
+            bSign.Name = "bSign";
+            bSign.Size = new Size(88, 49);
+            bSign.TabIndex = 9;
+            bSign.Text = "+/-";
+            bSign.UseVisualStyleBackColor = true;
+            bSign.Click += bSign_Click;
             // 
-            // button10
+            // bNine
             // 
-            button10.FlatStyle = FlatStyle.Popup;
-            button10.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 128);
-            button10.Location = new Point(202, 333);
-            button10.Name = "button10";
-            button10.Size = new Size(88, 49);
-            button10.TabIndex = 11;
-            button10.Text = ".";
-            button10.UseVisualStyleBackColor = true;
+            bNine.FlatStyle = FlatStyle.Popup;
+            bNine.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 128);
+            bNine.Location = new Point(202, 168);
+            bNine.Name = "bNine";
+            bNine.Size = new Size(88, 49);
+            bNine.TabIndex = 8;
+            bNine.Text = "9";
+            bNine.UseVisualStyleBackColor = true;
+            bNine.Click += bNine_Click;
             // 
-            // button11
+            // bEight
             // 
-            button11.FlatStyle = FlatStyle.Popup;
-            button11.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 128);
-            button11.Location = new Point(108, 333);
-            button11.Name = "button11";
-            button11.Size = new Size(88, 49);
-            button11.TabIndex = 10;
-            button11.Text = "0";
-            button11.UseVisualStyleBackColor = true;
+            bEight.FlatStyle = FlatStyle.Popup;
+            bEight.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 128);
+            bEight.Location = new Point(108, 168);
+            bEight.Name = "bEight";
+            bEight.Size = new Size(88, 49);
+            bEight.TabIndex = 7;
+            bEight.Text = "8";
+            bEight.UseVisualStyleBackColor = true;
+            bEight.Click += bEight_Click;
             // 
-            // button12
+            // bSeven
             // 
-            button12.FlatStyle = FlatStyle.Popup;
-            button12.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 128);
-            button12.Location = new Point(14, 333);
-            button12.Name = "button12";
-            button12.Size = new Size(88, 49);
-            button12.TabIndex = 9;
-            button12.Text = "+/-";
-            button12.UseVisualStyleBackColor = true;
+            bSeven.FlatStyle = FlatStyle.Popup;
+            bSeven.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 128);
+            bSeven.Location = new Point(14, 168);
+            bSeven.Name = "bSeven";
+            bSeven.Size = new Size(88, 49);
+            bSeven.TabIndex = 6;
+            bSeven.Text = "7";
+            bSeven.UseVisualStyleBackColor = true;
+            bSeven.Click += bSeven_Click;
             // 
-            // button7
+            // bSix
             // 
-            button7.FlatStyle = FlatStyle.Popup;
-            button7.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 128);
-            button7.Location = new Point(202, 168);
-            button7.Name = "button7";
-            button7.Size = new Size(88, 49);
-            button7.TabIndex = 8;
-            button7.Text = "9";
-            button7.UseVisualStyleBackColor = true;
+            bSix.FlatStyle = FlatStyle.Popup;
+            bSix.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 128);
+            bSix.Location = new Point(202, 223);
+            bSix.Name = "bSix";
+            bSix.Size = new Size(88, 49);
+            bSix.TabIndex = 5;
+            bSix.Text = "6";
+            bSix.UseVisualStyleBackColor = true;
+            bSix.Click += bSix_Click;
             // 
-            // button8
+            // bFive
             // 
-            button8.FlatStyle = FlatStyle.Popup;
-            button8.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 128);
-            button8.Location = new Point(108, 168);
-            button8.Name = "button8";
-            button8.Size = new Size(88, 49);
-            button8.TabIndex = 7;
-            button8.Text = "8";
-            button8.UseVisualStyleBackColor = true;
+            bFive.FlatStyle = FlatStyle.Popup;
+            bFive.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 128);
+            bFive.Location = new Point(108, 223);
+            bFive.Name = "bFive";
+            bFive.Size = new Size(88, 49);
+            bFive.TabIndex = 4;
+            bFive.Text = "5";
+            bFive.UseVisualStyleBackColor = true;
+            bFive.Click += bFive_Click;
             // 
-            // button9
+            // bFour
             // 
-            button9.FlatStyle = FlatStyle.Popup;
-            button9.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 128);
-            button9.Location = new Point(14, 168);
-            button9.Name = "button9";
-            button9.Size = new Size(88, 49);
-            button9.TabIndex = 6;
-            button9.Text = "7";
-            button9.UseVisualStyleBackColor = true;
+            bFour.FlatStyle = FlatStyle.Popup;
+            bFour.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 128);
+            bFour.Location = new Point(14, 223);
+            bFour.Name = "bFour";
+            bFour.Size = new Size(88, 49);
+            bFour.TabIndex = 3;
+            bFour.Text = "4";
+            bFour.UseVisualStyleBackColor = true;
+            bFour.Click += bFour_Click;
             // 
-            // button4
+            // bThree
             // 
-            button4.FlatStyle = FlatStyle.Popup;
-            button4.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 128);
-            button4.Location = new Point(202, 223);
-            button4.Name = "button4";
-            button4.Size = new Size(88, 49);
-            button4.TabIndex = 5;
-            button4.Text = "6";
-            button4.UseVisualStyleBackColor = true;
+            bThree.FlatStyle = FlatStyle.Popup;
+            bThree.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 128);
+            bThree.Location = new Point(202, 278);
+            bThree.Name = "bThree";
+            bThree.Size = new Size(88, 49);
+            bThree.TabIndex = 2;
+            bThree.Text = "3";
+            bThree.UseVisualStyleBackColor = true;
+            bThree.Click += bThree_Click;
             // 
-            // button5
+            // bTwo
             // 
-            button5.FlatStyle = FlatStyle.Popup;
-            button5.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 128);
-            button5.Location = new Point(108, 223);
-            button5.Name = "button5";
-            button5.Size = new Size(88, 49);
-            button5.TabIndex = 4;
-            button5.Text = "5";
-            button5.UseVisualStyleBackColor = true;
+            bTwo.FlatStyle = FlatStyle.Popup;
+            bTwo.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 128);
+            bTwo.Location = new Point(108, 278);
+            bTwo.Name = "bTwo";
+            bTwo.Size = new Size(88, 49);
+            bTwo.TabIndex = 1;
+            bTwo.Text = "2";
+            bTwo.UseVisualStyleBackColor = true;
+            bTwo.Click += bTwo_Click;
             // 
-            // button6
+            // bOne
             // 
-            button6.FlatStyle = FlatStyle.Popup;
-            button6.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 128);
-            button6.Location = new Point(14, 223);
-            button6.Name = "button6";
-            button6.Size = new Size(88, 49);
-            button6.TabIndex = 3;
-            button6.Text = "4";
-            button6.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            button3.FlatStyle = FlatStyle.Popup;
-            button3.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 128);
-            button3.Location = new Point(202, 278);
-            button3.Name = "button3";
-            button3.Size = new Size(88, 49);
-            button3.TabIndex = 2;
-            button3.Text = "3";
-            button3.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            button2.FlatStyle = FlatStyle.Popup;
-            button2.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 128);
-            button2.Location = new Point(108, 278);
-            button2.Name = "button2";
-            button2.Size = new Size(88, 49);
-            button2.TabIndex = 1;
-            button2.Text = "2";
-            button2.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            button1.FlatStyle = FlatStyle.Popup;
-            button1.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 128);
-            button1.Location = new Point(14, 278);
-            button1.Name = "button1";
-            button1.Size = new Size(88, 49);
-            button1.TabIndex = 0;
-            button1.Text = "1";
-            button1.UseVisualStyleBackColor = true;
+            bOne.FlatStyle = FlatStyle.Popup;
+            bOne.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 128);
+            bOne.Location = new Point(14, 278);
+            bOne.Name = "bOne";
+            bOne.Size = new Size(88, 49);
+            bOne.TabIndex = 0;
+            bOne.Text = "1";
+            bOne.UseVisualStyleBackColor = true;
+            bOne.Click += bOne_Click;
             // 
             // groupBox2
             // 
-            groupBox2.Controls.Add(textBox2);
+            groupBox2.Controls.Add(txtLog);
             groupBox2.Location = new Point(413, 12);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(293, 389);
@@ -326,13 +309,24 @@
             groupBox2.TabStop = false;
             groupBox2.Text = "履歴";
             // 
-            // textBox2
+            // lblDisplay
             // 
-            textBox2.Location = new Point(15, 22);
-            textBox2.Multiline = true;
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(272, 360);
-            textBox2.TabIndex = 0;
+            lblDisplay.AutoSize = true;
+            lblDisplay.Font = new Font("Yu Gothic UI", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 128);
+            lblDisplay.Location = new Point(25, 53);
+            lblDisplay.Name = "lblDisplay";
+            lblDisplay.Size = new Size(37, 40);
+            lblDisplay.TabIndex = 20;
+            lblDisplay.Text = "=";
+            // 
+            // txtLog
+            // 
+            txtLog.Location = new Point(6, 22);
+            txtLog.Multiline = true;
+            txtLog.Name = "txtLog";
+            txtLog.ReadOnly = true;
+            txtLog.Size = new Size(281, 363);
+            txtLog.TabIndex = 0;
             // 
             // FrmCalculator
             // 
@@ -353,28 +347,26 @@
         #endregion
 
         private GroupBox groupBox1;
-        private Button button1;
+        private Button bOne;
         private GroupBox groupBox2;
-        private Button button20;
-        private Button button19;
-        private Button button18;
-        private Button button17;
-        private Button button16;
-        private Button button13;
-        private Button button14;
-        private Button button15;
-        private Button button10;
-        private Button button11;
-        private Button button12;
-        private Button button7;
-        private Button button8;
-        private Button button9;
-        private Button button4;
-        private Button button5;
-        private Button button6;
-        private Button button3;
-        private Button button2;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private Button bEqual;
+        private Button bPlus;
+        private Button bMinus;
+        private Button bMultiply;
+        private Button bDivision;
+        private Button bClear;
+        private Button bDecimalPoint;
+        private Button bZero;
+        private Button bSign;
+        private Button bNine;
+        private Button bEight;
+        private Button bSeven;
+        private Button bSix;
+        private Button bFive;
+        private Button bFour;
+        private Button bThree;
+        private Button bTwo;
+        private Label lblDisplay;
+        private TextBox txtLog;
     }
 }
