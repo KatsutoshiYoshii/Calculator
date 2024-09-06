@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\sizu2\\source\\repos\\Calculator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BD683261-E319-4E86-8734-358052AD6F13}|FrmCalculator\\Calculator.csproj|c:\\users\\sizu2\\source\\repos\\calculator\\frmcalculator\\factorycalcmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD683261-E319-4E86-8734-358052AD6F13}|FrmCalculator\\Calculator.csproj|solutionrelative:frmcalculator\\factorycalcmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD683261-E319-4E86-8734-358052AD6F13}|FrmCalculator\\Calculator.csproj|c:\\users\\sizu2\\source\\repos\\calculator\\frmcalculator\\control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD683261-E319-4E86-8734-358052AD6F13}|FrmCalculator\\Calculator.csproj|solutionrelative:frmcalculator\\control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD683261-E319-4E86-8734-358052AD6F13}|FrmCalculator\\Calculator.csproj|c:\\users\\sizu2\\source\\repos\\calculator\\frmcalculator\\calcmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD683261-E319-4E86-8734-358052AD6F13}|FrmCalculator\\Calculator.csproj|solutionrelative:frmcalculator\\calcmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD683261-E319-4E86-8734-358052AD6F13}|FrmCalculator\\Calculator.csproj|c:\\users\\sizu2\\source\\repos\\calculator\\frmcalculator\\frmcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BD683261-E319-4E86-8734-358052AD6F13}|FrmCalculator\\Calculator.csproj|solutionrelative:frmcalculator\\frmcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BD683261-E319-4E86-8734-358052AD6F13}|FrmCalculator\\Calculator.csproj|c:\\users\\sizu2\\source\\repos\\calculator\\frmcalculator\\frmcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD683261-E319-4E86-8734-358052AD6F13}|FrmCalculator\\Calculator.csproj|solutionrelative:frmcalculator\\frmcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD683261-E319-4E86-8734-358052AD6F13}|FrmCalculator\\Calculator.csproj|c:\\users\\sizu2\\source\\repos\\calculator\\frmcalculator\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD683261-E319-4E86-8734-358052AD6F13}|FrmCalculator\\Calculator.csproj|solutionrelative:frmcalculator\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD683261-E319-4E86-8734-358052AD6F13}|FrmCalculator\\Calculator.csproj|C:\\Users\\sizu2\\source\\repos\\Calculator\\frmcalculator\\frmcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD683261-E319-4E86-8734-358052AD6F13}|FrmCalculator\\Calculator.csproj|solutionrelative:frmcalculator\\frmcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BD683261-E319-4E86-8734-358052AD6F13}|FrmCalculator\\Calculator.csproj|c:\\users\\sizu2\\source\\repos\\calculator\\frmcalculator\\icalc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD683261-E319-4E86-8734-358052AD6F13}|FrmCalculator\\Calculator.csproj|solutionrelative:frmcalculator\\icalc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD683261-E319-4E86-8734-358052AD6F13}|FrmCalculator\\Calculator.csproj|c:\\users\\sizu2\\source\\repos\\calculator\\frmcalculator\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD683261-E319-4E86-8734-358052AD6F13}|FrmCalculator\\Calculator.csproj|solutionrelative:frmcalculator\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BD683261-E319-4E86-8734-358052AD6F13}|FrmCalculator\\Calculator.csproj|c:\\users\\sizu2\\source\\repos\\calculator\\frmcalculator\\factorycalcmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD683261-E319-4E86-8734-358052AD6F13}|FrmCalculator\\Calculator.csproj|solutionrelative:frmcalculator\\factorycalcmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD683261-E319-4E86-8734-358052AD6F13}|FrmCalculator\\Calculator.csproj|c:\\users\\sizu2\\source\\repos\\calculator\\frmcalculator\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD683261-E319-4E86-8734-358052AD6F13}|FrmCalculator\\Calculator.csproj|solutionrelative:frmcalculator\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD683261-E319-4E86-8734-358052AD6F13}|FrmCalculator\\Calculator.csproj|c:\\users\\sizu2\\source\\repos\\calculator\\frmcalculator\\calcmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD683261-E319-4E86-8734-358052AD6F13}|FrmCalculator\\Calculator.csproj|solutionrelative:frmcalculator\\calcmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD683261-E319-4E86-8734-358052AD6F13}|FrmCalculator\\Calculator.csproj|c:\\users\\sizu2\\source\\repos\\calculator\\frmcalculator\\calculator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BD683261-E319-4E86-8734-358052AD6F13}|FrmCalculator\\Calculator.csproj|solutionrelative:frmcalculator\\calculator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BD683261-E319-4E86-8734-358052AD6F13}|FrmCalculator\\Calculator.csproj|c:\\users\\sizu2\\source\\repos\\calculator\\frmcalculator\\frmcalculator.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -53,14 +57,57 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CalcMethods.cs",
+              "DocumentMoniker": "C:\\Users\\sizu2\\source\\repos\\Calculator\\FrmCalculator\\CalcMethods.cs",
+              "RelativeDocumentMoniker": "FrmCalculator\\CalcMethods.cs",
+              "ToolTip": "C:\\Users\\sizu2\\source\\repos\\Calculator\\FrmCalculator\\CalcMethods.cs",
+              "RelativeToolTip": "FrmCalculator\\CalcMethods.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T04:32:56.623Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FrmCalculator.cs",
+              "DocumentMoniker": "C:\\Users\\sizu2\\source\\repos\\Calculator\\FrmCalculator\\FrmCalculator.cs",
+              "RelativeDocumentMoniker": "FrmCalculator\\FrmCalculator.cs",
+              "ToolTip": "C:\\Users\\sizu2\\source\\repos\\Calculator\\FrmCalculator\\FrmCalculator.cs",
+              "RelativeToolTip": "FrmCalculator\\FrmCalculator.cs",
+              "ViewState": "AgIAAN0AAAAAAAAAAADwv/EAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T01:36:53.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FrmCalculator.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\sizu2\\source\\repos\\Calculator\\FrmCalculator\\FrmCalculator.Designer.cs",
+              "RelativeDocumentMoniker": "FrmCalculator\\FrmCalculator.Designer.cs",
+              "ToolTip": "C:\\Users\\sizu2\\source\\repos\\Calculator\\FrmCalculator\\FrmCalculator.Designer.cs",
+              "RelativeToolTip": "FrmCalculator\\FrmCalculator.Designer.cs",
+              "ViewState": "AgIAABwBAAAAAAAAAAApwDYBAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T01:13:06.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "FactoryCalcMethods.cs",
               "DocumentMoniker": "C:\\Users\\sizu2\\source\\repos\\Calculator\\FrmCalculator\\FactoryCalcMethods.cs",
               "RelativeDocumentMoniker": "FrmCalculator\\FactoryCalcMethods.cs",
               "ToolTip": "C:\\Users\\sizu2\\source\\repos\\Calculator\\FrmCalculator\\FactoryCalcMethods.cs",
               "RelativeToolTip": "FrmCalculator\\FactoryCalcMethods.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-05T05:22:20.474Z",
               "EditorCaption": ""
@@ -68,6 +115,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "ICalc.cs",
+              "DocumentMoniker": "C:\\Users\\sizu2\\source\\repos\\Calculator\\FrmCalculator\\ICalc.cs",
+              "RelativeDocumentMoniker": "FrmCalculator\\ICalc.cs",
+              "ToolTip": "C:\\Users\\sizu2\\source\\repos\\Calculator\\FrmCalculator\\ICalc.cs",
+              "RelativeToolTip": "FrmCalculator\\ICalc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T04:14:54.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "FrmCalculator.cs [\u30C7\u30B6\u30A4\u30F3]",
               "DocumentMoniker": "C:\\Users\\sizu2\\source\\repos\\Calculator\\FrmCalculator\\FrmCalculator.cs",
               "RelativeDocumentMoniker": "FrmCalculator\\FrmCalculator.cs",
@@ -79,84 +139,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CalcMethods.cs",
-              "DocumentMoniker": "C:\\Users\\sizu2\\source\\repos\\Calculator\\FrmCalculator\\CalcMethods.cs",
-              "RelativeDocumentMoniker": "FrmCalculator\\CalcMethods.cs",
-              "ToolTip": "C:\\Users\\sizu2\\source\\repos\\Calculator\\FrmCalculator\\CalcMethods.cs",
-              "RelativeToolTip": "FrmCalculator\\CalcMethods.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T04:32:56.623Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ICalc.cs",
-              "DocumentMoniker": "C:\\Users\\sizu2\\source\\repos\\Calculator\\FrmCalculator\\ICalc.cs",
-              "RelativeDocumentMoniker": "FrmCalculator\\ICalc.cs",
-              "ToolTip": "C:\\Users\\sizu2\\source\\repos\\Calculator\\FrmCalculator\\ICalc.cs",
-              "RelativeToolTip": "FrmCalculator\\ICalc.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\sizu2\\source\\repos\\Calculator\\FrmCalculator\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "FrmCalculator\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\sizu2\\source\\repos\\Calculator\\FrmCalculator\\AssemblyInfo.cs",
+              "RelativeToolTip": "FrmCalculator\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T04:14:54.229Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Control.cs",
-              "DocumentMoniker": "C:\\Users\\sizu2\\source\\repos\\Calculator\\FrmCalculator\\Control.cs",
-              "RelativeDocumentMoniker": "FrmCalculator\\Control.cs",
-              "ToolTip": "C:\\Users\\sizu2\\source\\repos\\Calculator\\FrmCalculator\\Control.cs",
-              "RelativeToolTip": "FrmCalculator\\Control.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T01:53:33.114Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FrmCalculator.cs",
-              "DocumentMoniker": "C:\\Users\\sizu2\\source\\repos\\Calculator\\FrmCalculator\\FrmCalculator.cs",
-              "RelativeDocumentMoniker": "FrmCalculator\\FrmCalculator.cs",
-              "ToolTip": "C:\\Users\\sizu2\\source\\repos\\Calculator\\FrmCalculator\\FrmCalculator.cs",
-              "RelativeToolTip": "FrmCalculator\\FrmCalculator.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAhwGIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T01:36:53.209Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Main.cs",
-              "DocumentMoniker": "C:\\Users\\sizu2\\source\\repos\\Calculator\\FrmCalculator\\Main.cs",
-              "RelativeDocumentMoniker": "FrmCalculator\\Main.cs",
-              "ToolTip": "C:\\Users\\sizu2\\source\\repos\\Calculator\\FrmCalculator\\Main.cs",
-              "RelativeToolTip": "FrmCalculator\\Main.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T01:53:36.96Z",
+              "WhenOpened": "2024-09-06T02:18:15.674Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "FrmCalculator.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\sizu2\\source\\repos\\Calculator\\FrmCalculator\\FrmCalculator.Designer.cs",
-              "RelativeDocumentMoniker": "FrmCalculator\\FrmCalculator.Designer.cs",
-              "ToolTip": "C:\\Users\\sizu2\\source\\repos\\Calculator\\FrmCalculator\\FrmCalculator.Designer.cs",
-              "RelativeToolTip": "FrmCalculator\\FrmCalculator.Designer.cs",
-              "ViewState": "AgIAABEBAAAAAAAAAAApwCsBAAAkAAAAAAAAAA==",
+              "Title": "Calculator",
+              "DocumentMoniker": "C:\\Users\\sizu2\\source\\repos\\Calculator\\FrmCalculator\\Calculator.csproj",
+              "RelativeDocumentMoniker": "FrmCalculator\\Calculator.csproj",
+              "ToolTip": "C:\\Users\\sizu2\\source\\repos\\Calculator\\FrmCalculator\\Calculator.csproj",
+              "RelativeToolTip": "FrmCalculator\\Calculator.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-06T01:08:59.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\sizu2\\source\\repos\\Calculator\\FrmCalculator\\Main.cs",
+              "RelativeDocumentMoniker": "FrmCalculator\\Main.cs",
+              "ToolTip": "C:\\Users\\sizu2\\source\\repos\\Calculator\\FrmCalculator\\Main.cs",
+              "RelativeToolTip": "FrmCalculator\\Main.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T01:13:06.892Z",
+              "WhenOpened": "2024-09-05T01:53:36.96Z",
               "EditorCaption": ""
             }
           ]

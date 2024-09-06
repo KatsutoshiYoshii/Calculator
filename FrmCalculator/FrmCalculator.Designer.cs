@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             groupBox1 = new GroupBox();
+            lblDisplay = new Label();
             bEqual = new Button();
             bPlus = new Button();
             bMinus = new Button();
@@ -48,7 +49,6 @@
             bTwo = new Button();
             bOne = new Button();
             groupBox2 = new GroupBox();
-            lblDisplay = new Label();
             txtLog = new TextBox();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
@@ -81,6 +81,17 @@
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
             groupBox1.Text = "電卓";
+            // 
+            // lblDisplay
+            // 
+            lblDisplay.AutoSize = true;
+            lblDisplay.Font = new Font("Yu Gothic UI", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 128);
+            lblDisplay.Location = new Point(14, 59);
+            lblDisplay.Name = "lblDisplay";
+            lblDisplay.Size = new Size(33, 40);
+            lblDisplay.TabIndex = 20;
+            lblDisplay.Text = "0";
+            lblDisplay.TextAlign = ContentAlignment.MiddleRight;
             // 
             // bEqual
             // 
@@ -309,16 +320,6 @@
             groupBox2.TabStop = false;
             groupBox2.Text = "履歴";
             // 
-            // lblDisplay
-            // 
-            lblDisplay.AutoSize = true;
-            lblDisplay.Font = new Font("Yu Gothic UI", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 128);
-            lblDisplay.Location = new Point(25, 53);
-            lblDisplay.Name = "lblDisplay";
-            lblDisplay.Size = new Size(37, 40);
-            lblDisplay.TabIndex = 20;
-            lblDisplay.Text = "=";
-            // 
             // txtLog
             // 
             txtLog.Location = new Point(6, 22);
@@ -335,6 +336,9 @@
             ClientSize = new Size(715, 409);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "FrmCalculator";
             Text = "電卓";
             groupBox1.ResumeLayout(false);

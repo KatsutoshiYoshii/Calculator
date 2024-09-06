@@ -31,3 +31,7 @@ C:\Users\sizu2\source\repos\Calculator\FrmCalculator\obj\Debug\net8.0-windows\Ca
 C:\Users\sizu2\source\repos\Calculator\FrmCalculator\obj\Debug\net8.0-windows\Calculator.genruntimeconfig.cache
 C:\Users\sizu2\source\repos\Calculator\FrmCalculator\obj\Debug\net8.0-windows\ref\Calculator.dll
 C:\Users\sizu2\source\repos\Calculator\FrmCalculator\obj\Debug\net8.0-windows\Calculator.sourcelink.json
+C:\Users\sizu2\source\repos\Calculator\FrmCalculator\bin\Debug\net8.0-windows\log4net.config
+C:\Users\sizu2\source\repos\Calculator\FrmCalculator\bin\Debug\net8.0-windows\log4net.dll
+C:\Users\sizu2\source\repos\Calculator\FrmCalculator\obj\Debug\net8.0-windows\Calculator.csproj.AssemblyReference.cache
+C:\Users\sizu2\source\repos\Calculator\FrmCalculator\obj\Debug\net8.0-windows\Calculator.csproj.Up2Date

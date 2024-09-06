@@ -8,6 +8,8 @@ namespace Calculator
 {
     internal class Plus : ICalc
     {
+        public string symbol => "+";
+
         public double Calc(double x, double y)
         {
             return x + y;
@@ -16,6 +18,7 @@ namespace Calculator
 
     internal class Minus : ICalc
     {
+        public string symbol => "-";
         public double Calc(double x, double y)
         {
             return x - y;
@@ -24,6 +27,7 @@ namespace Calculator
 
     internal class Multiply : ICalc
     {
+        public string symbol => "×";
         public double Calc(double x, double y)
         {
             return x * y;
@@ -32,6 +36,7 @@ namespace Calculator
 
     internal class Division : ICalc
     {
+        public string symbol => "÷";
         public double Calc(double x, double y)
         {
             if(y == 0)

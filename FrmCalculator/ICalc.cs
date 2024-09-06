@@ -9,6 +9,8 @@ namespace Calculator
     internal interface ICalc
     {
 
+        string symbol { get; }
+
         //第1引数と第2引数で計算を行う
         double Calc(double x, double y);
 

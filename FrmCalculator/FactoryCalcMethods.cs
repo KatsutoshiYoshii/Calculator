@@ -15,9 +15,9 @@ namespace Calculator
         Division
     }
 
-    internal class FactoryCalcMethods
+    internal static class FactoryCalcMethods
     {
-        ICalc Factory(int method)
+        internal static ICalc Factory(int method)
         {
             switch (method)
             {
